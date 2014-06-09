@@ -14,7 +14,7 @@ exports.BattleAbilities = {
 		num: 189
 	},
 	"bugjuice": {
-		desc: "This Pokemon is immune to Bug moves. If hit by a Bug move, it recovers 25% of its max HP.",
+		desc: "This Pokemon is immune to Bug-type moves. If hit by a Bug move, it recovers 25% of its max HP.",
 		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Bug moves; Bug immunity.",
 		onTryHit: function (target, source, move) {
 			if (target !== source && move.type === 'Bug') {
