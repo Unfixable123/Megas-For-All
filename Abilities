@@ -30,8 +30,8 @@ exports.BattleAbilities = {
 		num: 190
 	},	
 	"pollinate": {
-		desc: "This Pokemon's Flying-type moves have their priority increased by 1.",
-		shortDesc: "Gives priority to Flying-type moves.",
+		desc: "This Pokemon's Powder moves have their priority increased by 1.",
+		shortDesc: "Gives priority to Powder moves.",
 		onModifyPriority: function (priority, pokemon, target, move) {
 			if (move.isPowderMove) return priority + 1;
 		},
