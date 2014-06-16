@@ -1,1 +1,1804 @@
 exports.BattleItems = {
+"butterfrite": {
+id: "butterfrite",
+name: "Butterfrite",
+spritenum: 575,
+megaStone: "Butterfree-Mega",
+megaEvolves: "Butterfree",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 719,
+gen: 6,
+desc: "Mega-evolves Butterfree."
+
+
+exports.BattleItems = {
+"beedrite": {
+id: "beedrite",
+name: "Beedrite",
+spritenum: 575,
+megaStone: "Beedrill-Mega",
+megaEvolves: "Beedrill",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 720,
+gen: 6,
+desc: "Mega-evolves Beedrill."
+
+
+exports.BattleItems = {
+"pidgite": {
+id: "pidgite",
+name: "Pidgite",
+spritenum: 575,
+megaStone: "Pidgeot-Mega",
+megaEvolves: "Pidgeot",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 721,
+gen: 6,
+desc: "Mega-evolves Pidgeot."
+
+
+exports.BattleItems = {
+"raticite": {
+id: "raticite",
+name: "Raticite",
+spritenum: 575,
+megaStone: "Raticate-Mega",
+megaEvolves: "Raticate",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 722,
+gen: 6,
+desc: "Mega-evolves Raticate."
+
+
+exports.BattleItems = {
+"fearite": {
+id: "fearite",
+name: "Fearite",
+spritenum: 575,
+megaStone: "Fearow-Mega",
+megaEvolves: "Fearow",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 723,
+gen: 6,
+desc: "Mega-evolves Fearow."
+
+
+exports.BattleItems = {
+"arbokite": {
+id: "arbokite",
+name: "Arbokite",
+spritenum: 575,
+megaStone: "Arbok-Mega",
+megaEvolves: "Arbok",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 724,
+gen: 6,
+desc: "Mega-evolves Arbok."
+
+
+exports.BattleItems = {
+"raichuite": {
+id: "raichuite",
+name: "Raichuite",
+spritenum: 575,
+megaStone: "Raichu-Mega",
+megaEvolves: "Raichu",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 725,
+gen: 6,
+desc: "Mega-evolves Raichu."
+
+
+exports.BattleItems = {
+"sandslashite": {
+id: "sandslashite",
+name: "Sandslashite",
+spritenum: 575,
+megaStone: "Sandslash-Mega",
+megaEvolves: "Sandslash",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 726,
+gen: 6,
+desc: "Mega-evolves Sandslash."
+
+
+exports.BattleItems = {
+"nidonitef": {
+id: "nidonitef",
+name: "Nidonite F",
+spritenum: 575,
+megaStone: "Nidoqueen-Mega",
+megaEvolves: "Nidoqueen",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 727,
+gen: 6,
+desc: "Mega-evolves Nidoqueen."
+
+
+exports.BattleItems = {
+"nidonitem": {
+id: "nidonitem",
+name: "Nidonite M",
+spritenum: 575,
+megaStone: "Nidoking-Mega",
+megaEvolves: "Nidoking",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 728,
+gen: 6,
+desc: "Mega-evolves Nidoking."
+
+
+exports.BattleItems = {
+"clefablite": {
+id: "clefablite",
+name: "Clefablite",
+spritenum: 575,
+megaStone: "Clefable-Mega",
+megaEvolves: "Clefable",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 729,
+gen: 6,
+desc: "Mega-evolves Clefable."
+
+
+exports.BattleItems = {
+"ninetalesite": {
+id: "ninetalesite",
+name: "Ninetalesite",
+spritenum: 575,
+megaStone: "Ninetales-Mega",
+megaEvolves: "Ninetales",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 730,
+gen: 6,
+desc: "Mega-evolves Ninetales."
+
+
+exports.BattleItems = {
+"wigglytuffite": {
+id: "wigglytuffite",
+name: "Wigglytuffite",
+spritenum: 575,
+megaStone: "Wigglytuff-Mega",
+megaEvolves: "Wigglytuff",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 731,
+gen: 6,
+desc: "Mega-evolves Wigglytuff."
+
+
+exports.BattleItems = {
+"vileplumite": {
+id: "vileplumite",
+name: "Vileplumite",
+spritenum: 575,
+megaStone: "Vileplume-Mega",
+megaEvolves: "Vileplume",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 732,
+gen: 6,
+desc: "Mega-evolves Vileplume."
+
+
+exports.BattleItems = {
+"parasite": {
+id: "parasite",
+name: "Parasite",
+spritenum: 575,
+megaStone: "Parasect-Mega",
+megaEvolves: "Parasect",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 733,
+gen: 6,
+desc: "Mega-evolves Parasect."
+
+
+exports.BattleItems = {
+"venomothite": {
+id: "venomothite",
+name: "Venomothite",
+spritenum: 575,
+megaStone: "Venomoth-Mega",
+megaEvolves: "Venomoth",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 734,
+gen: 6,
+desc: "Mega-evolves Venomoth."
+
+
+exports.BattleItems = {
+"dugtrite": {
+id: "dugtrite",
+name: "Dugtrite",
+spritenum: 575,
+megaStone: "Dugtrio-Mega",
+megaEvolves: "Dugtrio",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 735,
+gen: 6,
+desc: "Mega-evolves Dugtrio."
+
+
+exports.BattleItems = {
+"persite": {
+id: "persite",
+name: "Persite",
+spritenum: 575,
+megaStone: "Persian-Mega",
+megaEvolves: "Persian",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 736,
+gen: 6,
+desc: "Mega-evolves Persian."
+
+
+exports.BattleItems = {
+"golduckite": {
+id: "golduckite",
+name: "Golduckite",
+spritenum: 575,
+megaStone: "Golduck-Mega",
+megaEvolves: "Golduck",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 737,
+gen: 6,
+desc: "Mega-evolves Abomasnow."
+
+
+exports.BattleItems = {
+"primapite": {
+id: "primapite",
+name: "Primapite",
+spritenum: 575,
+megaStone: "Primeape-Mega",
+megaEvolves: "Primeape",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 738,
+gen: 6,
+desc: "Mega-evolves Primeape."
+
+
+exports.BattleItems = {
+"arcanitex": {
+id: "arcanitex",
+name: "Arcanite X",
+spritenum: 575,
+megaStone: "Arcanine-Mega-X",
+megaEvolves: "Arcanine",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 739,
+gen: 6,
+desc: "Mega-evolves Arcanine into Mega Arcanine X."
+
+
+exports.BattleItems = {
+"arcanitey": {
+id: "arcanitey",
+name: "Arcanite Y",
+spritenum: 575,
+megaStone: "Arcanine-Mega-Y",
+megaEvolves: "Arcanine",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 740,
+gen: 6,
+desc: "Mega-evolves Arcanine into Mega Arcanine Y."
+
+
+exports.BattleItems = {
+"poliwrathite": {
+id: "poliwrathite",
+name: "Poliwrathite",
+spritenum: 575,
+megaStone: "Poliwrath-Mega",
+megaEvolves: "Poliwrath",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 741,
+gen: 6,
+desc: "Mega-evolves Poliwrath."
+
+
+exports.BattleItems = {
+"machampite": {
+id: "machampite",
+name: "Machampite",
+spritenum: 575,
+megaStone: "Machamp-Mega",
+megaEvolves: "Machamp",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 742,
+gen: 6,
+desc: "Mega-evolves Machamp."
+
+
+exports.BattleItems = {
+"victrite": {
+id: "victrite",
+name: "Victrite",
+spritenum: 575,
+megaStone: "Victreebel-Mega",
+megaEvolves: "Victreebel",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 743,
+gen: 6,
+desc: "Mega-evolves Victreebel."
+
+
+exports.BattleItems = {
+"tentacrite": {
+id: "tentacrite",
+name: "Tentacrite",
+spritenum: 575,
+megaStone: "Tentacruel-Mega",
+megaEvolves: "Tentacruel",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 744,
+gen: 6,
+desc: "Mega-evolves Tentacruel."
+
+
+exports.BattleItems = {
+"golite": {
+id: "golite",
+name: "Golite",
+spritenum: 575,
+megaStone: "Golem-Mega",
+megaEvolves: "Golem",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 745,
+gen: 6,
+desc: "Mega-evolves Golem."
+
+
+exports.BattleItems = {
+"rapidashite": {
+id: "rapidashite",
+name: "Rapidashite",
+spritenum: 575,
+megaStone: "Rapidash-Mega",
+megaEvolves: "Rapidash",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 746,
+gen: 6,
+desc: "Mega-evolves Rapidash."
+
+
+exports.BattleItems = {
+"slowbrite": {
+id: "slowbrite",
+name: "Slowbrite",
+spritenum: 575,
+megaStone: "Slowbro-Mega",
+megaEvolves: "Slowbro",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 747,
+gen: 6,
+desc: "Mega-evolves Slowbro."
+
+
+exports.BattleItems = {
+"farfetchite": {
+id: "farfetchite",
+name: "Farfetchite",
+spritenum: 575,
+megaStone: "Farfetch'd-Mega",
+megaEvolves: "Farfetch'd",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 748,
+gen: 6,
+desc: "Mega-evolves Farfetch'd."
+
+
+exports.BattleItems = {
+"dodrite": {
+id: "dodrite",
+name: "Dodrite",
+spritenum: 575,
+megaStone: "Dodrio-Mega",
+megaEvolves: "Dodrio",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 749,
+gen: 6,
+desc: "Mega-evolves Dodrio."
+
+
+exports.BattleItems = {
+"dewgongite": {
+id: "dewgongite",
+name: "Dewgongite",
+spritenum: 575,
+megaStone: "Dewgong-Mega",
+megaEvolves: "Dewgong",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 750,
+gen: 6,
+desc: "Mega-evolves Dewgong."
+
+
+exports.BattleItems = {
+"mukite": {
+id: "mukite",
+name: "Mukgite",
+spritenum: 575,
+megaStone: "Muk-Mega",
+megaEvolves: "Muk",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 751,
+gen: 6,
+desc: "Mega-evolves Muk."
+
+
+exports.BattleItems = {
+"cloystite": {
+id: "cloystite",
+name: "Cloystite",
+spritenum: 575,
+megaStone: "Cloyster-Mega",
+megaEvolves: "Cloyster",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 752,
+gen: 6,
+desc: "Mega-evolves Cloyster."
+
+
+exports.BattleItems = {
+"hypnite": {
+id: "hypnite",
+name: "Hypnite",
+spritenum: 575,
+megaStone: "Hypno-Mega",
+megaEvolves: "Hypno",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 753,
+gen: 6,
+desc: "Mega-evolves Hypno."
+
+
+exports.BattleItems = {
+"kinglerite": {
+id: "kinglerite",
+name: "Kinglerite",
+spritenum: 575,
+megaStone: "Kingler-Mega",
+megaEvolves: "Kingler",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 754,
+gen: 6,
+desc: "Mega-evolves Kingler."
+
+
+exports.BattleItems = {
+"electitex": {
+id: "electitex",
+name: "Electite X",
+spritenum: 575,
+megaStone: "Electrode-Mega-X",
+megaEvolves: "Electrode",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 755,
+gen: 6,
+desc: "Mega-evolves Electrode into Mega Electrode X."
+
+
+exports.BattleItems = {
+"electitey": {
+id: "electitey",
+name: "Electite Y",
+spritenum: 575,
+megaStone: "Electrode-Mega-Y",
+megaEvolves: "Electrode",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 756,
+gen: 6,
+desc: "Mega-evolves Electrode into Mega Electrode Y."
+
+
+exports.BattleItems = {
+"exeggutite": {
+id: "exeggutite",
+name: "Exeggutite",
+spritenum: 575,
+megaStone: "Exeggutor-Mega",
+megaEvolves: "Exeggutor",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 757,
+gen: 6,
+desc: "Mega-evolves Exeggutor."
+
+
+exports.BattleItems = {
+"marowakite": {
+id: "marowakite",
+name: "Marowakite",
+spritenum: 575,
+megaStone: "Marowak-Mega",
+megaEvolves: "Marowak",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 758,
+gen: 6,
+desc: "Mega-evolves Marowak."
+
+
+exports.BattleItems = {
+"hitmonitel": {
+id: "hitmonitel",
+name: "Hitmonite L",
+spritenum: 575,
+megaStone: "Hitmonlee-Mega",
+megaEvolves: "Hitmonlee",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 759,
+gen: 6,
+desc: "Mega-evolves Hitmonlee."
+
+
+exports.BattleItems = {
+"hitmonitec": {
+id: "hitmonitec",
+name: "Hitmonite C",
+spritenum: 575,
+megaStone: "Hitmonchan-Mega",
+megaEvolves: "Hitmonchan",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 760,
+gen: 6,
+desc: "Mega-evolves Hitmonchan."
+
+
+exports.BattleItems = {
+"weezite": {
+id: "weezite",
+name: "Weezite",
+spritenum: 575,
+megaStone: "Weezing-Mega",
+megaEvolves: "Weezing",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 761,
+gen: 6,
+desc: "Mega-evolves Weezing."
+
+
+exports.BattleItems = {
+"seakingite": {
+id: "seakingite",
+name: "Seakingite",
+spritenum: 575,
+megaStone: "Seaking-Mega",
+megaEvolves: "Seaking",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 762,
+gen: 6,
+desc: "Mega-evolves Seaking."
+
+
+exports.BattleItems = {
+"starmite": {
+id: "starmite",
+name: "Starmite",
+spritenum: 575,
+megaStone: "Starmie-Mega",
+megaEvolves: "Starmie",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 763,
+gen: 6,
+desc: "Mega-evolves Starmie."
+
+
+exports.BattleItems = {
+"mimite": {
+id: "mimite",
+name: "Mimite",
+spritenum: 575,
+megaStone: "Mr.Mime-Mega",
+megaEvolves: "Mr.Mime",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 764,
+gen: 6,
+desc: "Mega-evolves Mr.Mime."
+
+
+exports.BattleItems = {
+"jynxite": {
+id: "jynxite",
+name: "Jynxite",
+spritenum: 575,
+megaStone: "Jynx-Mega",
+megaEvolves: "Jynx",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 765,
+gen: 6,
+desc: "Mega-evolves Jynx."
+
+
+exports.BattleItems = {
+"taurosite": {
+id: "taurosite",
+name: "Taurosite",
+spritenum: 575,
+megaStone: "Tauros-Mega",
+megaEvolves: "Tauros",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 766,
+gen: 6,
+desc: "Mega-evolves Tauros."
+
+
+exports.BattleItems = {
+"laprasite": {
+id: "laprasite",
+name: "Laprasite",
+spritenum: 575,
+megaStone: "Lapras-Mega",
+megaEvolves: "Lapras",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 767,
+gen: 6,
+desc: "Mega-evolves Lapras."
+
+
+exports.BattleItems = {
+"dittite": {
+id: "dittite",
+name: "Dittite",
+spritenum: 575,
+megaStone: "Ditto-Mega",
+megaEvolves: "Ditto",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 768,
+gen: 6,
+desc: "Mega-evolves Ditto."
+
+
+exports.BattleItems = {
+"vaporite": {
+id: "vaporite",
+name: "Vaporite",
+spritenum: 575,
+megaStone: "Vaporeon-Mega",
+megaEvolves: "Vaporeon",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 769,
+gen: 6,
+desc: "Mega-evolves Vaporeon."
+
+
+exports.BattleItems = {
+"joltite": {
+id: "joltite",
+name: "Joltite",
+spritenum: 575,
+megaStone: "Jolteon-Mega",
+megaEvolves: "Jolteon",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 770,
+gen: 6,
+desc: "Mega-evolves Jolteon."
+
+
+exports.BattleItems = {
+"flaritex": {
+id: "flaritex",
+name: "Flarite X",
+spritenum: 575,
+megaStone: "Flareon-Mega-X",
+megaEvolves: "Flareon",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 771,
+gen: 6,
+desc: "Mega-evolves Flareon into Mega Flareon X."
+
+
+exports.BattleItems = {
+"flaritey": {
+id: "flaritey",
+name: "Flarite Y",
+spritenum: 575,
+megaStone: "Flareon-Mega-Y",
+megaEvolves: "Flareon",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 772,
+gen: 6,
+desc: "Mega-evolves Flareon into Mega Flareon Y."
+
+
+exports.BattleItems = {
+"omastite": {
+id: "omastite",
+name: "Omastite",
+spritenum: 575,
+megaStone: "Omastar-Mega",
+megaEvolves: "Omastar",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 773,
+gen: 6,
+desc: "Mega-evolves Omastar."
+
+
+exports.BattleItems = {
+"kabutite": {
+id: "kabutite",
+name: "Kabutite",
+spritenum: 575,
+megaStone: "Kabutops-Mega",
+megaEvolves: "Kabutops",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 774,
+gen: 6,
+desc: "Mega-evolves Kabutops."
+
+
+exports.BattleItems = {
+"snorlaxite": {
+id: "snorlaxite",
+name: "Snorlaxite",
+spritenum: 575,
+megaStone: "Snorlax-Mega",
+megaEvolves: "Snorlax",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 775,
+gen: 6,
+desc: "Mega-evolves Snorlax."
+
+
+exports.BattleItems = {
+"articunitex": {
+id: "articunitex",
+name: "Articunite X",
+spritenum: 575,
+megaStone: "Articuno-Mega",
+megaEvolves: "Articuno",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 776,
+gen: 6,
+desc: "Mega-evolves Articuno into Mega Articuno X."
+
+
+exports.BattleItems = {
+"articunitey": {
+id: "articunitey",
+name: "Articunite Y",
+spritenum: 575,
+megaStone: "Articuno-Mega",
+megaEvolves: "Articuno",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 777,
+gen: 6,
+desc: "Mega-evolves Articuno into Mega Articuno Y."
+
+
+exports.BattleItems = {
+"zapdite": {
+id: "zapdite",
+name: "Zapdite",
+spritenum: 575,
+megaStone: "Zapdos-Mega",
+megaEvolves: "Zapdos",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 778,
+gen: 6,
+desc: "Mega-evolves Zapdos."
+
+
+exports.BattleItems = {
+"moltresite": {
+id: "moltresite",
+name: "Moltresite",
+spritenum: 575,
+megaStone: "Moltres-Mega",
+megaEvolves: "Moltres",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 779,
+gen: 6,
+desc: "Mega-evolves Moltres."
+
+
+exports.BattleItems = {
+"dragonite": {
+id: "dragonite",
+name: "Dragonite",
+spritenum: 575,
+megaStone: "Dragonite-Mega",
+megaEvolves: "Dragonite",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 780,
+gen: 6,
+desc: "Mega-evolves Dragonite."
+
+
+exports.BattleItems = {
+"mewite": {
+id: "mewite",
+name: "Mewite",
+spritenum: 575,
+megaStone: "Mew-Mega",
+megaEvolves: "Mew",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 781,
+gen: 6,
+desc: "Mega-evolves Mew."
+
+
+exports.BattleItems = {
+"meganite": {
+id: "meganite",
+name: "Meganite",
+spritenum: 575,
+megaStone: "Meganium-Mega",
+megaEvolves: "Meganium",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 782,
+gen: 6,
+desc: "Mega-evolves Meganium."
+
+
+exports.BattleItems = {
+"typhlosite": {
+id: "typhlosite",
+name: "Typhlosite",
+spritenum: 575,
+megaStone: "Typhlosion-Mega",
+megaEvolves: "Typhlosion",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 783,
+gen: 6,
+desc: "Mega-evolves Typhlosion."
+
+
+exports.BattleItems = {
+"feraligatite": {
+id: "feraligatite",
+name: "Feraligatite",
+spritenum: 575,
+megaStone: "Feraligatr-Mega",
+megaEvolves: "Feraligatr",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 784,
+gen: 6,
+desc: "Mega-evolves Feraligatr."
+
+
+exports.BattleItems = {
+"furrite": {
+id: "furrite",
+name: "Furrite",
+spritenum: 575,
+megaStone: "Furret-Mega",
+megaEvolves: "Furret",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 785,
+gen: 6,
+desc: "Mega-evolves Furret."
+
+
+exports.BattleItems = {
+"noctowlite": {
+id: "noctowlite",
+name: "Noctowlite",
+spritenum: 575,
+megaStone: "Noctowl-Mega",
+megaEvolves: "Noctowl",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 786,
+gen: 6,
+desc: "Mega-evolves Noctowl."
+
+
+exports.BattleItems = {
+"ledianite": {
+id: "ledianite",
+name: "Ledianite",
+spritenum: 575,
+megaStone: "Ledian-Mega",
+megaEvolves: "Ledian",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 787,
+gen: 6,
+desc: "Mega-evolves Ledian."
+
+
+exports.BattleItems = {
+"ariadite": {
+id: "ariadite",
+name: "Ariadite",
+spritenum: 575,
+megaStone: "Ariados-Mega",
+megaEvolves: "Ariados",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 788,
+gen: 6,
+desc: "Mega-evolves Ariados."
+
+
+exports.BattleItems = {
+"crobatite": {
+id: "crobatite",
+name: "Crobatite",
+spritenum: 575,
+megaStone: "Crobat-Mega",
+megaEvolves: "Crobat",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 789,
+gen: 6,
+desc: "Mega-evolves Crobat."
+
+
+exports.BattleItems = {
+"lanturnite": {
+id: "lanturnite",
+name: "Lanturnite",
+spritenum: 575,
+megaStone: "Lanturn-Mega",
+megaEvolves: "Lanturn",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 790,
+gen: 6,
+desc: "Mega-evolves Lanturn."
+
+
+exports.BattleItems = {
+"xatite": {
+id: "xatite",
+name: "Xatite",
+spritenum: 575,
+megaStone: "Xatu-Mega",
+megaEvolves: "Xatu",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 791,
+gen: 6,
+desc: "Mega-evolves Xatu."
+
+
+exports.BattleItems = {
+"bellossite": {
+id: "bellossite",
+name: "Bellossite",
+spritenum: 575,
+megaStone: "Bellossom-Mega",
+megaEvolves: "Bellossom",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 792,
+gen: 6,
+desc: "Mega-evolves Bellossom."
+
+
+exports.BattleItems = {
+"azumarite": {
+id: "azumarite",
+name: "Azumarite",
+spritenum: 575,
+megaStone: "Azumarill-Mega",
+megaEvolves: "Azumarill",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 793,
+gen: 6,
+desc: "Mega-evolves Azumarill."
+
+
+exports.BattleItems = {
+"sudowoodite": {
+id: "sudowoodite",
+name: "Sudowoodite",
+spritenum: 575,
+megaStone: "Sudowoodo-Mega",
+megaEvolves: "Sudowoodo",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 794,
+gen: 6,
+desc: "Mega-evolves Sudowoodo."
+
+
+exports.BattleItems = {
+"politite": {
+id: "politite",
+name: "Politite",
+spritenum: 575,
+megaStone: "Politoed-Mega",
+megaEvolves: "Politoed",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 795,
+gen: 6,
+desc: "Mega-evolves Politoed."
+
+
+exports.BattleItems = {
+"jumplite": {
+id: "jumplite",
+name: "Jumplite",
+spritenum: 575,
+megaStone: "Jumpluff-Mega",
+megaEvolves: "Jumpluff",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 796,
+gen: 6,
+desc: "Mega-evolves Jumpluff."
+
+
+exports.BattleItems = {
+"sunflorite": {
+id: "sunflorite",
+name: "Sunflorite",
+spritenum: 575,
+megaStone: "Sunflora-Mega",
+megaEvolves: "Sunflora",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 797,
+gen: 6,
+desc: "Mega-evolves Sunflora."
+
+
+exports.BattleItems = {
+"quagsirite": {
+id: "quagsirite",
+name: "Quagsirite",
+spritenum: 575,
+megaStone: "Quagsire-Mega",
+megaEvolves: "Quagsire",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 798,
+gen: 6,
+desc: "Mega-evolves Quagsire."
+
+
+exports.BattleItems = {
+"espeonite": {
+id: "espeonite",
+name: "Espeonite",
+spritenum: 575,
+megaStone: "Espeon-Mega",
+megaEvolves: "Espeon",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 799,
+gen: 6,
+desc: "Mega-evolves Espeon."
+
+
+exports.BattleItems = {
+"umbreonite": {
+id: "umbreonite",
+name: "Umbreonite",
+spritenum: 575,
+megaStone: "Umbreon-Mega",
+megaEvolves: "Umbreon",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 800,
+gen: 6,
+desc: "Mega-evolves Umbreon."
+
+
+exports.BattleItems = {
+"slowkingite": {
+id: "slowkingite",
+name: "Slowkingite",
+spritenum: 575,
+megaStone: "Slowking-Mega",
+megaEvolves: "Slowking",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 801,
+gen: 6,
+desc: "Mega-evolves Slowking."
+
+
+exports.BattleItems = {
+"unownite": {
+id: "unownite",
+name: "Unownite",
+spritenum: 575,
+megaStone: "Unown-Mega",
+megaEvolves: "Unown",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 802,
+gen: 6,
+desc: "Mega-evolves Unown."
+
+
+exports.BattleItems = {
+"wobbuffetite": {
+id: "wobbuffetite",
+name: "Wobbuffetite",
+spritenum: 575,
+megaStone: "Wobbuffet-Mega",
+megaEvolves: "Wobbuffet",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 803,
+gen: 6,
+desc: "Mega-evolves Wobbuffet."
+
+
+exports.BattleItems = {
+"girafarite": {
+id: "girafarite",
+name: "Girafarite",
+spritenum: 575,
+megaStone: "Girafarig-Mega",
+megaEvolves: "Girafarig",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 804,
+gen: 6,
+desc: "Mega-evolves Girafarig."
+
+
+exports.BattleItems = {
+"forretrite": {
+id: "forretrite",
+name: "Forretrite",
+spritenum: 575,
+megaStone: "Forretress-Mega",
+megaEvolves: "Forretress",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 805,
+gen: 6,
+desc: "Mega-evolves Forretress."
+
+
+exports.BattleItems = {
+"dunsparcite": {
+id: "dunsparcite",
+name: "Dunsparcite",
+spritenum: 575,
+megaStone: "Dunsparce-Mega",
+megaEvolves: "Dunsparce",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 806,
+gen: 6,
+desc: "Mega-evolves Dunsparce."
+
+
+exports.BattleItems = {
+"steelixite": {
+id: "steelixite",
+name: "Steelixite",
+spritenum: 575,
+megaStone: "Steelix-Mega",
+megaEvolves: "Steelix",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 807,
+gen: 6,
+desc: "Mega-evolves Steelix."
+
+
+exports.BattleItems = {
+"granbullite": {
+id: "granbullite",
+name: "Granbullite",
+spritenum: 575,
+megaStone: "Granbull-Mega",
+megaEvolves: "Granbull",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 808,
+gen: 6,
+desc: "Mega-evolves Granbull."
+
+
+exports.BattleItems = {
+"qwilfishite": {
+id: "qwilfishite",
+name: "Qwilfishite",
+spritenum: 575,
+megaStone: "Qwilfish-Mega",
+megaEvolves: "Qwilfish",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 809,
+gen: 6,
+desc: "Mega-evolves Qwilfish."
+
+
+exports.BattleItems = {
+"shucklite": {
+id: "shucklite",
+name: "Shucklite",
+spritenum: 575,
+megaStone: "Shuckle-Mega",
+megaEvolves: "Shuckle",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 810,
+gen: 6,
+desc: "Mega-evolves Shuckle."
+
+
+exports.BattleItems = {
+"ursarite": {
+id: "ursarite",
+name: "Ursarite",
+spritenum: 575,
+megaStone: "Ursaring-Mega",
+megaEvolves: "Ursaring",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 811,
+gen: 6,
+desc: "Mega-evolves Ursaring."
+
+
+exports.BattleItems = {
+"magcargite": {
+id: "magcargite",
+name: "Magcargite",
+spritenum: 575,
+megaStone: "Magcargo-Mega",
+megaEvolves: "Magcargo",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 812,
+gen: 6,
+desc: "Mega-evolves Magcargo."
+
+
+exports.BattleItems = {
+"corsolite": {
+id: "corsolite",
+name: "Corsolite",
+spritenum: 575,
+megaStone: "Corsola-Mega",
+megaEvolves: "Corsola",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 813,
+gen: 6,
+desc: "Mega-evolves Corsola."
+
+
+exports.BattleItems = {
+"octillerite": {
+id: "octillerite",
+name: "Octillerite",
+spritenum: 575,
+megaStone: "Octillery-Mega",
+megaEvolves: "Octillery",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 814,
+gen: 6,
+desc: "Mega-evolves Octillery."
+
+
+
+exports.BattleItems = {
+"delibirdite": {
+id: "delibirdite",
+name: "Delibirdite",
+spritenum: 575,
+megaStone: "Delibird-Mega",
+megaEvolves: "Delibird",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 815,
+gen: 6,
+desc: "Mega-evolves Delibird."
+
+
+exports.BattleItems = {
+"mantite": {
+id: "mantite",
+name: "Mantite",
+spritenum: 575,
+megaStone: "Mantine-Mega",
+megaEvolves: "Mantine",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 816,
+gen: 6,
+desc: "Mega-evolves Mantine."
+
+
+exports.BattleItems = {
+"skarmorite": {
+id: "skarmorite",
+name: "Skarmorite",
+spritenum: 575,
+megaStone: "Skarmory-Mega",
+megaEvolves: "Skarmory",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 817,
+gen: 6,
+desc: "Mega-evolves Skarmory."
+
+
+exports.BattleItems = {
+"kindrite": {
+id: "kingdrite",
+name: "Kingdrite",
+spritenum: 575,
+megaStone: "Kingdra-Mega",
+megaEvolves: "Kingdra",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 818,
+gen: 6,
+desc: "Mega-evolves Kingdra."
+
+
+exports.BattleItems = {
+"donphite": {
+id: "donphite",
+name: "Donphite",
+spritenum: 575,
+megaStone: "Donphan-Mega",
+megaEvolves: "Donphan",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 819,
+gen: 6,
+desc: "Mega-evolves Donphan."
+
+
+exports.BattleItems = {
+"stantlerite": {
+id: "stantlerite",
+name: "Stantlerite",
+spritenum: 575,
+megaStone: "Stantler-Mega",
+megaEvolves: "Stantler",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 820,
+gen: 6,
+desc: "Mega-evolves Stantler."
+
+
+exports.BattleItems = {
+"smearglite": {
+id: "smearglite",
+name: "Smearglite",
+spritenum: 575,
+megaStone: "Smeargle-Mega",
+megaEvolves: "Smeargle",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 821,
+gen: 6,
+desc: "Mega-evolves Smeargle."
+
+
+exports.BattleItems = {
+"hitmonitet": {
+id: "hitmonitet",
+name: "Hitmonite T",
+spritenum: 575,
+megaStone: "Hitmontop-Mega",
+megaEvolves: "Hitmontop",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 822,
+gen: 6,
+desc: "Mega-evolves Hitmontop."
+
+
+exports.BattleItems = {
+"miltankite": {
+id: "miltankite",
+name: "Miltankite",
+spritenum: 575,
+megaStone: "Miltank-Mega",
+megaEvolves: "Miltank",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 823,
+gen: 6,
+desc: "Mega-evolves Miltank."
+
+
+exports.BattleItems = {
+"blissite": {
+id: "blissite",
+name: "Blissite",
+spritenum: 575,
+megaStone: "Blissey-Mega",
+megaEvolves: "Blissey",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 824,
+gen: 6,
+desc: "Mega-evolves Blissey."
+
+
+exports.BattleItems = {
+"raikounite": {
+id: "raikounite",
+name: "Raiounite",
+spritenum: 575,
+megaStone: "Raikou-Mega",
+megaEvolves: "Raikou",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 825,
+gen: 6,
+desc: "Mega-evolves Raikou."
+
+
+exports.BattleItems = {
+"entite": {
+id: "entite",
+name: "Entite",
+spritenum: 575,
+megaStone: "Entei-Mega",
+megaEvolves: "Entei",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 826,
+gen: 6,
+desc: "Mega-evolves Entei."
+
+
+exports.BattleItems = {
+"suicunite": {
+id: "suicunite",
+name: "Suicunite",
+spritenum: 575,
+megaStone: "Suicune-Mega",
+megaEvolves: "Suicune",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 827,
+gen: 6,
+desc: "Mega-evolves Suicune."
+
+
+exports.BattleItems = {
+"lugianite": {
+id: "lugianite",
+name: "Lugianite",
+spritenum: 575,
+megaStone: "Lugia-Mega",
+megaEvolves: "Lugia",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 828,
+gen: 6,
+desc: "Mega-evolves Lugia."
+
+
+exports.BattleItems = {
+"ho-ohite": {
+id: "ho-ohite",
+name: "Ho-Ohite",
+spritenum: 575,
+megaStone: "Ho-Oh-Mega",
+megaEvolves: "Ho-Oh",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 829,
+gen: 6,
+desc: "Mega-evolves Ho-Oh."
+
+
+exports.BattleItems = {
+"celebite": {
+id: "celebite",
+name: "Celebite",
+spritenum: 575,
+megaStone: "Celebi-Mega",
+megaEvolves: "Celebi",
+onTakeItem: function (item, source) {
+if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
+return true;
+},
+num: 830,
+gen: 6,
+desc: "Mega-evolves Celebi."
+
+
+
+
+
+
+
+
+
+
+
+
+
