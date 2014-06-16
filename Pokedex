@@ -1,1 +1,16 @@
-exports.BattlePokedex = {
+aegislashmega:{num:681,species:"Aegislash-Mega",baseSpecies:"Aegislash",forme:"Mega",formeLetter:"M",types:["Steel","Ghost"],baseStats:{hp:60,atk:100,def:150,spa:100,spd:150,spe:60},abilities:{0:"Vampiric Blade"},heightm:1.2,weightkg:49,color:"White",eggGroups:["Field"]},
+
+arbokmega:{num:24,species:"Arbok-Mega",baseSpecies:"Arbok",forme:"Mega",formeLetter:"M",types:["Poison","Dragon"],baseStats:{hp:60,atk:105,def:99,spa:75,spd:109,spe:90},abilities:{0:"Multiscale"},heightm:1.2,weightkg:49,color:"White",eggGroups:["Field"]},
+
+arcaninemegax:{num:59,species:"Arcanine-Mega-X",baseSpecies:"Arcanine",forme:"Mega X",formeLetter:"M",types:["Fire"],baseStats:{hp:90,atk:150,def:100,spa:100,spd:100,spe:115},abilities:{0:"Intimidate"},heightm:1.2,weightkg:49,color:"White",eggGroups:["Field"]},
+
+arcaninemegay:{num:59,species:"Arcanine-Mega-Y",baseSpecies:"Arcanine",forme:"Mega Y",formeLetter:"M",types:["Fire"],baseStats:{hp:90,atk:125,def:120,spa:100,spd:120,spe:100},abilities:{0:"Awareness"},heightm:1.2,weightkg:49,color:"White",eggGroups:["Field"]},
+
+archeopsmega:{num:567,species:"Archeops-Mega",baseSpecies:"Archeops",forme:Mega",formeletter:"M",types:["Flying"],baseStats:{hp:75,atk:180,def:85,spa:132,spd:86,spe:110},abilities:{0:"Unadaptable"},heightm:1.2,weightkg:49,color:"White",eggGroups:["Field"]},
+
+articunomegax:{num:144,species:"Articuno-Mega-X",baseSpecies:"Articuno",forme:Mega",formeletter:"M",types:["Ice","Flying"],baseStats:{hp:90,atk:85,def:110,spa:140,spd:145,spe:110},abilities:{0:"Gale Wings"},heightm:1.2,weightkg:49,color:"White",eggGroups:["Field"]},
+
+articunomegay:{num:144,species:"Articuno-Mega-Y",baseSpecies:"Articuno",forme:Mega",formeletter:"M",types:["Ice","Flying"],baseStats:{hp:90,atk:105,def:120,spa:135,spd:145,spe:95},abilities:{0:"Snow Warning"},heightm:1.2,weightkg:49,color:"White",eggGroups:["Field"]},
+
+aurorusmega:{num:699,species:"Aurorus-Mega",baseSpecies:"Aurorus",forme:Mega",formeletter:"M",types:["Ice","Rock"],baseStats:{hp:123,atk:87,def:92,spa:129,spd:122,spe:68},abilities:{0:"Ice Age"},heightm:1.2,weightkg:49,color:"White",eggGroups:["Field"]},
+
