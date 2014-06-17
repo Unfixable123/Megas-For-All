@@ -77,5 +77,143 @@ exports.BattleAbilities = {
 		id: "vampiricblade",
 		name: "Vampiric Blade"
 		rating: 3,
-		num: 193
-	}， 
+		num: 194
+	}，
+	“awareness": {
+		desc: "This pokemon takes no damage from stealth rocks and spikes.",
+		shortDesc: "Immune to entry hazard damage.",
+		onDamage: function (damage, target, source, effect) {
+			if (effect && effect.id === 'stealthrock' || 'spikes') {
+				return false;
+			}
+		},
+		id: "awareness",
+		name: "Awareness",
+		rating: 3,
+		num: 195
+	},
+	"pollenshield": {
+		desc: "If this Pokemon is active while Sunny Day is in effect, its Defense is increased by 50%",
+		shortDesc: "If Sunny Day is active, this Pokemon's Defense is increased by 50%.",
+		onModifyDef: function (defMod) {
+			if (this.isWeather('sunnyday')) {
+				return this.chain(defMod, 1.5);
+			}
+		},
+		id: "pollenshield",
+		name: "Pollen Shield",
+		rating: 2,
+		num: 196
+	},
+	"stormforce": {
+		desc: "Raises the power of this Pokemon's Flying, Electric, and Dragon-type moves by 1.3x if the weather is Rainy.",
+		shortDesc: "This Pokemon's Flying/Electric/Dragon attacks do 1.3x in Rain.",
+		onBasePowerPriority: 8,
+		onBasePower: function (basePower, attacker, defender, move) {
+			if (this.isWeather('raindance')) {
+				if (move.type === 'Flying' || move.type === 'Electric' || move.type === 'Dragon') {
+					this.debug('Sand Force boost');
+					return this.chainModify([0x14CD, 0x1000]);
+				}
+			}
+		},
+		id: "stormforce",
+		name: "Storm Force",
+		rating: 2,
+		num: 197
+	},
+	"doppler": {
+		desc: "Raises the power of this Pokemon's Water-type moves by 50% in rain, Fire-type moves by 50% in sun, Rock-Type moves by 50% in sandstorm, and Ice-Type moves by 50% in hail.",
+		shortDesc: "This Pokemon's Flying/Electric/Dragon attacks do 1.3x in Rain.",
+		onBasePowerPriority: 8,
+		onBasePower: function (basePower, attacker, defender, move) {
+			if (this.isWeather('raindance')) {
+				if (move.type === 'Water') {
+					this.debug('Doppler boost');
+					return this.chainModify(1.5);
+				}
+			},
+			if (this.isWeather('sunnyday')) {
+				if (move.type === 'Fire') {
+					this.debug('Doppler boost');
+					return this.chainModify(1.5);
+				}
+			},
+			if (this.isWeather('sandstorm')) {
+				if (move.type === 'Rock') {
+					this.debug('Doppler boost');
+					return this.chainModify(1.5);
+				}
+			},
+			if (this.isWeather('hail')) {
+				is (move.type === 'Ice') {
+					this.debug('Doppler boost');
+					return this.chainModify(1.5);
+				}
+			}
+		},
+		id: "doppler",
+		name: "Doppler",
+		rating: 2,
+		num: 198
+	},
+	"soothingpulse": {
+		desc: "When this Pokemon enters the field, Every Pokemon in the user's party is cured of its major status problem..",
+		shortDesc: "On switch-in, cures entire team of status.",
+		onStart: function (pokemon, source) {
+			var side = pokemon.side;
+			for (var i = 0; i < side.pokemon.length; i++) {
+				side.pokemon[i].status = '';
+			}
+			this.add('-cureteam', source, '[from] ability: Soothing Pulse');
+		},
+		id: "soothingpulse",
+		name: "Soothing Pulse",
+		rating: 4,
+		num: 199
+	},
+	"quickwitted": {
+		desc: "This Pokemon's Psychic-type moves have their priority increased by 1.",
+		shortDesc: "Gives priority to Psychic-type moves.",
+		onModifyPriority: function (priority, pokemon, target, move) {
+			if (move && move.type === 'Psychic') return priority + 1;
+		},
+		id: "quickwitted",
+		name: "Quick-Witted",
+		rating: 4.5,
+		num: 200
+	},
+	"shiver": {
+		desc: "When this Pokemon enters the field, the Special Attack stat of each of its opponents lowers by one stage.",
+		shortDesc: "On switch-in, this Pokemon lowers adjacent foes' Special Attack by 1.",
+		onStart: function (pokemon) {
+			var foeactive = pokemon.side.foe.active;
+			for (var i = 0; i < foeactive.length; i++) {
+				if (!foeactive[i] || !this.isAdjacent(foeactive[i], pokemon)) continue;
+				if (foeactive[i].volatiles['substitute']) {
+					this.add('-activate', foeactive[i], 'Substitute', 'ability: Shiver', '[of] ' + pokemon);
+				} else {
+					this.add('-ability', pokemon, 'Shiver', '[of] ' + foeactive[i]);
+					this.boost({spa: -1}, foeactive[i], pokemon);
+				}
+			}
+		},
+		id: "shiver",
+		name: "Shiver",
+		rating: 3.5,
+		num: 201
+	},
+	"amplifier": {
+		desc: "Boosts the power of Sound Based moves by 1/3.",
+		shortDesc: "Boosts the power of Sound Based moves by 1/3.",
+		onBasePowerPriority: 8,
+		onBasePower: function (basePower, attacker, defender, move) {
+			if (move.isSoundBased) {
+				return this.chainModify([0x14CD, 0x1000]);
+			}
+		},
+		id: "amplifier",
+		name: "Amplifier",
+		rating: 3,
+		num: 202
+	},
